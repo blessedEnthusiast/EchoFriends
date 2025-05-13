@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">EchoFriend</string>
+    <string name="welcome_text">Welcome\nName!</string>
+    <string name="app_logo">App Logo</string>
+    <string name="whats_happening">What\'s happening?</string>
+    <string name="post">Post</string>
+    <string name="user_avatar">User Avatar</string>
+    <string name="username">username</string>
+    <string name="status_update">status update…</string>
+    <string name="like_button">Like Button</string>
+    <string name="likes_count">12</string>
+    <string name="more_status_updates">More status updates…</string>
+    <string name="find_friends">Find Friends</string>
+    <string name="profile">Profile</string>
+    <string name="history">History</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="back_arrow">Back arrow</string>
+    <string name="logout">Logout</string>
+    <string name="profile_title">Profile</string>
+    <string name="slogan">Post. Echo. Repeat</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="username_hint">username</string>
+    <string name="email_text">Email</string>
+    <string name="password_hint">Password</string>
 </resources>
