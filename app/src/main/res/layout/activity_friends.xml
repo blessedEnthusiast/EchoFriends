@@ -55,7 +55,7 @@
 
             <!-- Search button with custom positioning -->
             <EditText
-                android:id="@+id/r2wthzvswisc"
+                android:id="@+id/friends_username"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
@@ -76,7 +76,7 @@
             <!-- Footer elements positioned at the bottom -->
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/rh3jwy9bq0vp"
+                android:id="@+id/searchButton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
@@ -88,7 +88,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.495"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/r2wthzvswisc"
+                app:layout_constraintTop_toBottomOf="@+id/friends_username"
                 app:layout_constraintWidth_percent="0.7">
 
                 <ImageView
@@ -117,7 +117,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/rdmq497qzi9e"
+                android:id="@+id/friends_backButton"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="40dp"
@@ -125,7 +125,7 @@
                 android:scaleType="fitXY"
                 android:src="@drawable/back_arrow"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/rh3jwy9bq0vp" />
+                app:layout_constraintTop_toBottomOf="@id/searchButton" />
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/rj0j9c23dwhd"
@@ -136,7 +136,7 @@
                 android:scaleType="fitXY"
                 android:src="@drawable/high_five"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/rh3jwy9bq0vp" />
+                app:layout_constraintTop_toBottomOf="@id/searchButton" />
 
             <TextView
                 android:id="@+id/rhq6tkvj3gxd"

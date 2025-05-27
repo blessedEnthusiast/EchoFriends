@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -17,6 +18,7 @@ public class LoginActivity extends AppCompatActivity {
     public EditText username;
     public EditText password;
     public Button login;
+    public TextView createAccount;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +27,7 @@ public class LoginActivity extends AppCompatActivity {
         username = (EditText) findViewById(R.id.username);
         password = (EditText) findViewById(R.id.password);
         login = (Button) findViewById(R.id.loginButton);
-
+        createAccount = (TextView) findViewById(R.id.createAccount);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,6 +43,15 @@ public class LoginActivity extends AppCompatActivity {
                 } else {
                     Toast.makeText(LoginActivity.this, "Invalid username or password", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+
+        createAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LoginActivity.this, CreateAccountActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
     }

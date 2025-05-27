@@ -66,7 +66,7 @@
 
             <!-- No Updates Text -->
             <TextView
-                android:id="@+id/rftvhpjbu05j"
+                android:id="@+id/statusUpdates"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp"
                 android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
 
             <!-- Bottom Image -->
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/rhy64733q9gp"
+                android:id="@+id/history_backButton"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="32dp"
@@ -89,7 +89,7 @@
                 android:src="@drawable/back_arrow"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/rftvhpjbu05j"
+                app:layout_constraintTop_toBottomOf="@id/statusUpdates"
                 app:layout_constraintVertical_bias="1.0" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
