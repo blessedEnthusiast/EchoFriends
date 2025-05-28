@@ -54,9 +54,12 @@ public class CreateAccountActivity extends AppCompatActivity {
             return;
         }
 
-        String successMessage = "Account created for " + usernameStr;
-        Toast.makeText(this, successMessage, Toast.LENGTH_LONG).show();
 
+        if (!usernameStr.equals("true") || !passwordStr.equals("true")) {
+            Toast.makeText(this, "To login later, use username and password as 'true'", Toast.LENGTH_LONG).show();
+        }
+
+        Toast.makeText(this, "Account created successfully!", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(CreateAccountActivity.this, LoginActivity.class);
         startActivity(intent);
         finish();
