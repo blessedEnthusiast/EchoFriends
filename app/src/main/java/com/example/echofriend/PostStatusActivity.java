@@ -16,7 +16,7 @@ public class PostStatusActivity extends AppCompatActivity {
     private EditText statusInput;
     private Button postButton;
 
-    // Simple in-memory store for status posts
+   
     public static List<String> posts = new ArrayList<>();
 
     @Override
@@ -38,12 +38,12 @@ public class PostStatusActivity extends AppCompatActivity {
             return;
         }
 
-        // Add new status to list (newest first)
+        
         posts.add(0, statusText);
 
         Toast.makeText(this, "Status posted!", Toast.LENGTH_SHORT).show();
 
-        // Clear input after posting
+      
         statusInput.setText("");
     }
 }
